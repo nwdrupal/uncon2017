@@ -1219,9 +1219,12 @@ body {
 body {
   background-color: #2e3141;
   background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-  background-size: auto, cover;
-  background-attachment: fixed, fixed;
-  background-position: center, center; }
+  background-size: auto,
+ cover;
+  background-attachment: fixed,
+ fixed;
+  background-position: center,
+ center; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -2301,8 +2304,10 @@ body.is-menu-visible #menu {
       padding: 7em 0 8.25em 0 ;
       background-color: #2e3141;
       background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-      background-size: auto, cover;
-      background-position: center, center;
+      background-size: auto,
+ cover;
+      background-position: center,
+ center;
       margin-bottom: -6.5em; } }
   @media screen and (max-width: 980px) {
     #banner {
@@ -2373,15 +2378,19 @@ body.is-menu-visible #menu {
     padding: 9em 0 6.25em 0 ;
     background-color: #2e3141;
     background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-    background-size: auto, cover;
-    background-position: center, 0% 30%;
+    background-size: auto,
+ cover;
+    background-position: center,
+ 0% 30%;
     margin-bottom: -6.5em; } }
 
 @media screen and (max-width: 980px) {
   #wrapper > header {
     padding: 11em 3em 7.375em 3em ;
-    background-size: auto, cover;
-    background-position: center, 0% 0%;
+    background-size: auto,
+ cover;
+    background-position: center,
+ 0% 0%;
     margin-bottom: -4.75em; }
     #wrapper > header .inner {
       width: 100%; } }
@@ -2389,7 +2398,8 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 736px) {
   #wrapper > header {
     padding: 6.5em 2em 3em 2em ;
-    background-size: auto, 125%;
+    background-size: auto,
+ 125%;
     margin-bottom: -2.5em; }
     #wrapper > header h2 {
       font-size: 1.25em; }
@@ -2612,12 +2622,17 @@ body.is-menu-visible #menu {
   #footer {
     background-color: #2e3141;
     background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-    background-size: auto, cover;
-    background-position: center, center;
+    background-size: auto,
+ cover;
+    background-position: center,
+ center;
     margin-top: -6.5em;
     padding-top: 6.5em; } }
 
 @media screen and (max-width: 980px) {
+  #banner img {
+    max-width: 100%;
+  }
   #footer {
     margin-top: -4.75em;
     padding-top: 4.75em; }
