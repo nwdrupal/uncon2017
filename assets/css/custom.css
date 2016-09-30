@@ -1,2 +1,5 @@
 section.wrapper {
   color: rgba(53, 56, 73, 0.95); }
+  section.wrapper a {
+    color: rgba(53, 56, 73, 0.95);
+    font-weight: bold; }
