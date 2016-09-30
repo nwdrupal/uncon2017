@@ -1411,6 +1411,10 @@ hr {
 section.special, article.special {
   text-align: center; }
 
+section.wrapper {
+    color: rgba(53, 56, 73, 0.95);
+}
+
 /* Form */
 form {
   margin: 0 0 2em 0; }
