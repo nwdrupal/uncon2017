@@ -2681,3 +2681,36 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 360px) {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em ; } }
+
+.sponsor_list li {
+    list-style: none;
+    padding-left: 0;
+    display: block;
+    float: left;
+}
+
+.sponsors h3 {
+    clear: left;
+}
+
+.sponsor_list li a {
+    border-bottom: none;
+}
+
+.sponsor_list li a img {
+    width: 100%;
+}
+
+.sponsor_list_gold li {
+    width: 100%;
+}
+
+.sponsor_list_silver li {
+    width: 40%;
+    margin-right: 2em;
+}
+
+.sponsor_list_bronze li {
+    width: 20%;
+    margin-right: 1em;
+}
