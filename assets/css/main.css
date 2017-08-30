@@ -2699,6 +2699,7 @@ body.is-menu-visible #menu {
 
 .sponsor_list li a img {
     width: 100%;
+    margin-bottom: 36px;
 }
 
 .sponsor_list_gold li {
