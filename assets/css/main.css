@@ -1501,6 +1501,9 @@ ol.default {
           color: #fff; }
         #nav > ul > li.active > a, #nav > ul > li.active > span {
           color: #fff; }
+        #nav > ul > li.current {
+          font-weight: bold;
+          text-decoration: underline; }
   .dropotron {
     background: #222835 url("images/overlay.png");
     background-color: rgba(44, 50, 63, 0.925);
