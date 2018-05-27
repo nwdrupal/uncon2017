@@ -2599,7 +2599,8 @@ body.is-menu-visible #menu {
   margin: 0 auto;
   width: 55em; }
   #footer .inner > * {
-    width: 100%; }
+    width: 100%;
+    clear: both; }
   #footer .inner form {
     margin: 0 3em 0 0;
     width: calc(50% - 1.5em); }
