@@ -1,6 +1,6 @@
-#NWDUG Unconf 2016
+#NWDUG Unconf 2018
 
-26th November, Autotrader Manchester.
+3rd November, Federation House, Manchester.
 
 http://uncon.nwdrupal.org.uk
 
