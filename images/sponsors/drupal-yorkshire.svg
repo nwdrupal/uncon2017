@@ -1,0 +1,87 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<symbol id="back_petal" viewBox="0 0 100 100" >
+		<rect x="26.0" y="18" width="4" height="4" transform="rotate(8 28.5 19.3)" fill="#F9E71A" />
+	</symbol>
+	<symbol id="petal" viewBox="0 0 100 100" >
+		<path d="M50 50 L30 22.3 A5 5 0 0 1 31.2 17 A35.1 35.1 0 0 1 68.3 17 A5 5 0 0 1 69.5 22.3 Z" fill="#ffffff" stroke="#326384" />
+	</symbol>
+	<symbol id="eye" viewbox="0 0 10 10" >
+		<circle cx="4.5" cy="4.5" r="4.5" fill="#FFFFFF" />
+		<circle cx="4.5" cy="4.5" r="2" fill="#3D7194" />
+		<circle cx="5" cy="4.1" r="1" fill="#FFFFFF" />
+	</symbol>
+	<defs >
+		<rect id="cog_point_outer" x="0" y="0" width="2" height="2" rx="0.5" ry="0.5" transform="rotate(45)" />
+	</defs>
+	<symbol id="cog_part" viewbox="0 0 100 100" >
+		<use xlink:href="#cog_point_outer" x="50" y="6" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(5 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(10 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(15 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(20 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(25 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(30 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(35 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(40 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(45 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(50 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(55 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(60 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(65 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(70 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(75 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(80 50 50)" fill="#C1DC54" />
+		<use xlink:href="#cog_point_outer" x="50" y="6" transform="rotate(85 50 50)" fill="#C1DC54" />
+
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(2.5 50 50)" fill="#3A6B8D"/>
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(7.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(12.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(17.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(22.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(27.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(32.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(37.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(42.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(47.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(52.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(57.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(62.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(67.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(72.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(77.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(82.5 50 50)" fill="#3A6B8D" />
+		<use xlink:href="#cog_point_outer" x="50" y="6.98" transform="rotate(87.5 50 50)" fill="#3A6B8D" />
+	</symbol>
+	<symbol id="cog" viewBox="0 0 100 100" >
+		<use xlink:href="#cog_part" x="0" y="0" />
+		<use xlink:href="#cog_part" x="0" y="0" transform="rotate(90 50 50)" />
+		<use xlink:href="#cog_part" x="0" y="0" transform="rotate(180 50 50)" />
+		<use xlink:href="#cog_part" x="0" y="0" transform="rotate(270 50 50)" />
+	</symbol>
+	<circle cx="50" cy="50" r="46.1" fill="#C1DC54" />
+	<circle cx="50" cy="50" r="41.9" fill="#3A6B8D	" />
+	<!-- Round cogs -->
+	<!--
+	<circle cx="50" cy="50" r="41.9" fill="none" stroke="#C1DC54" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="0.1 2.7" transform="rotate(1.9 50 50)" />
+	<circle cx="50" cy="50" r="41.9" fill="none" stroke="#3A6B8D" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="0.08 2.72"/>
+    -->
+    <!-- Angled cogs -->
+	<use xlink:href="#cog" x="0" y="0" width="100" height="100" />
+	<circle cx="50" cy="50" r="46.1" fill="none" stroke="#131313" stroke-width="3.6" />
+	<circle cx="50" cy="50" r="46.1" fill="none" stroke="#FBFBFB" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="3,3" transform="rotate(4.7 50 50)" />
+	<circle cx="50" cy="50" r="48.3" fill="none" stroke="#35A869" stroke-width="1.4" />
+	<use xlink:href="#back_petal" x="0" y="0" width="100" height="100" />
+	<use xlink:href="#back_petal" x="0" y="0" width="100" height="100" transform="rotate(72 50 50)" />
+	<use xlink:href="#back_petal" x="0" y="0" width="100" height="100" transform="rotate(144 50 50)" />
+	<use xlink:href="#back_petal" x="0" y="0" width="100" height="100" transform="rotate(216 50 50)" />
+	<use xlink:href="#back_petal" x="0" y="0" width="100" height="100" transform="rotate(288 50 50)" />
+	<use xlink:href="#petal" x="0" y="0" width="100" height="100" />
+	<use xlink:href="#petal" x="0" y="0" width="100" height="100" transform="rotate(72 50 50)" />
+	<use xlink:href="#petal" x="0" y="0" width="100" height="100" transform="rotate(144 50 50)" />
+	<use xlink:href="#petal" x="0" y="0" width="100" height="100" transform="rotate(216 50 50)" />
+	<use xlink:href="#petal" x="0" y="0" width="100" height="100" transform="rotate(288 50 50)" />
+	<path d="M33 31 A27.5 27.5 0 1 0 67 31 L50 15 Z" fill="#7FB7DF" stroke="none" />
+	<use xlink:href="#eye" x="33.5" y="41.9" />
+	<use xlink:href="#eye" x="56.5" y="41.9" />
+	<path d="M63.5 55.5 A20 30 0 0 1 36 55.5" fill="#FFFFFF" />
+ </svg>
