@@ -125,6 +125,10 @@
       .content {
         width: 40%;
       }
+
+      .content.with-map {
+        width: 80%;
+      }
     }
   }
 
@@ -133,6 +137,10 @@
       .content {
         width: 50%;
       }
+
+      .content.with-map {
+        width: 80%;
+      }
     }
   }
 
@@ -140,6 +148,10 @@
     &.style2 {
       .content {
         width: 60%;
+      }
+
+      .content.with-map {
+        width: 100%;
       }
     }
   }
@@ -197,9 +209,15 @@
 }
 
 .with-map {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
-  .map {
-    align-self: flex-start;
+  > div {
+    flex-basis: 47.5%;
+
+    @include breakpoint('<=small') {
+      flex-basis: 100%;
+    }
   }
 }

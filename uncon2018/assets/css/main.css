@@ -1426,13 +1426,19 @@ table {
     background-attachment: scroll !important; }
   @media screen and (max-width: 1920px) {
     .main.style2 .content {
-      width: 40%; } }
+      width: 40%; }
+    .main.style2 .content.with-map {
+      width: 80%; } }
   @media screen and (max-width: 1280px) {
     .main.style2 .content {
-      width: 50%; } }
+      width: 50%; }
+    .main.style2 .content.with-map {
+      width: 80%; } }
   @media screen and (max-width: 1000px) {
     .main.style2 .content {
-      width: 60%; } }
+      width: 60%; }
+    .main.style2 .content.with-map {
+      width: 100%; } }
   @media screen and (max-width: 736px) {
     .main > .content br {
       display: none; }
@@ -1464,9 +1470,14 @@ table {
       max-width: calc(100% - 1.5em); } }
 
 .with-map {
-  flex-wrap: wrap; }
-  .with-map .map {
-    align-self: flex-start; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .with-map > div {
+    flex-basis: 47.5%; }
+    @media screen and (max-width: 736px) {
+      .with-map > div {
+        flex-basis: 100%; } }
 
 /* Footer */
 #footer {
