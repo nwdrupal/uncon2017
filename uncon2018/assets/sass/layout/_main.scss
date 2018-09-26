@@ -195,3 +195,11 @@
     }
   }
 }
+
+.with-map {
+  flex-wrap: wrap;
+
+  .map {
+    align-self: flex-start;
+  }
+}

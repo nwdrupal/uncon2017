@@ -1463,6 +1463,11 @@ table {
     .main > .content {
       max-width: calc(100% - 1.5em); } }
 
+.with-map {
+  flex-wrap: wrap; }
+  .with-map .map {
+    align-self: flex-start; }
+
 /* Footer */
 #footer {
   display: -moz-flex;
