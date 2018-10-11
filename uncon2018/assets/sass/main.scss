@@ -52,15 +52,14 @@
 
 /* Intro */
 
-#intro {
+#intro,
+#work {
   background: url('images/overlay.png'), url('../../images/intro.jpg');
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat;
 }
-
-/* One */
 
 #one {
   background: url('images/overlay.png'), url('../../images/one.jpg');
@@ -69,8 +68,6 @@
   background-position: top left, center center;
 }
 
-/* Two */
-
 #two {
   background: url('images/overlay.png'), url('../../images/two.jpg');
   background-size: 256px 256px, cover;
@@ -78,8 +75,35 @@
   background-position: top left, center center;
 }
 
-/* Contact */
+#three {
+  background: url('images/overlay.png'), url('../../images/three.jpg');
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+}
 
+#four {
+  background: url('images/overlay.png'), url('../../images/four.jpg');
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+}
+
+#five {
+  background: url('images/overlay.png'), url('../../images/five.jpg');
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+}
+
+#six {
+  background: url('images/overlay.png'), url('../../images/six.jpg');
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+}
+
+/* Contact */
 #contact {
   overflow: hidden;
   padding-bottom: 0;

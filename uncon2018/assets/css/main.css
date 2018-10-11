@@ -798,6 +798,12 @@ header {
     margin: 1em 0 0 0;
     padding: 0 0 0.5em 0; }
 
+#work {
+  flex-wrap: wrap; }
+  #work header {
+    width: 100%;
+    color: white; }
+
 footer {
   margin-top: 2em; }
 
@@ -1367,7 +1373,7 @@ table {
     -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
-    padding: 3em 0 3em 0;
+    padding: 3em 0 6em 0;
     overflow: hidden; }
     .main.style2 > .content {
       -moz-transition: -moz-transform 1s ease;
@@ -1538,23 +1544,46 @@ table {
         padding-top: 0; } }
 
 /* Intro */
-#intro {
+#intro,
+#work {
   background: url("images/overlay.png"), url("../../images/intro.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
 
-/* One */
 #one {
   background: url("images/overlay.png"), url("../../images/one.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
 
-/* Two */
 #two {
   background: url("images/overlay.png"), url("../../images/two.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center; }
+
+#three {
+  background: url("images/overlay.png"), url("../../images/three.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center; }
+
+#four {
+  background: url("images/overlay.png"), url("../../images/four.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center; }
+
+#five {
+  background: url("images/overlay.png"), url("../../images/five.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center; }
+
+#six {
+  background: url("images/overlay.png"), url("../../images/six.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }

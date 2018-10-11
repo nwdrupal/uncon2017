@@ -16,6 +16,15 @@ header {
   }
 }
 
+#work {
+  flex-wrap: wrap;
+
+  header {
+    width: 100%;
+    color: white;
+  }
+}
+
 footer {
   margin-top: 2em;
 }
