@@ -1,218 +1,101 @@
 ///
-/// Solid State by HTML5 UP
+/// Big Picture by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
 /* Type */
 
-	body, input, select, textarea {
-		color: _palette(fg);
-		font-family: _font(family);
-		font-size: 16.5pt;
-		font-weight: _font(weight);
-		line-height: 1.65;
+body, input, textarea, select {
+  font-family: _font(family);
+  font-weight: _font(weight);
+  font-size: 18pt;
+  line-height: 1.75em;
+  color: _palette(fg);
+  letter-spacing: 0.025em;
 
-		@include breakpoint(xlarge) {
-			font-size: 13pt;
-		}
+  @include breakpoint('<=xxlarge') {
+    font-size: 17pt;
+  }
 
-		@include breakpoint(large) {
-			font-size: 12pt;
-		}
+  @include breakpoint('<=xlarge') {
+    font-size: 15pt;
+  }
 
-		@include breakpoint(medium) {
-			font-size: 12pt;
-		}
+  @include breakpoint('<=large') {
+    font-size: 13pt;
+  }
 
-		@include breakpoint(small) {
-			font-size: 12pt;
-		}
+  @include breakpoint('<=medium') {
+    font-size: 13pt;
+  }
 
-		@include breakpoint(xsmall) {
-			font-size: 12pt;
-		}
-	}
+  @include breakpoint('<=small') {
+    font-size: 12pt;
+    line-height: 1.5em;
+  }
+}
 
-	a {
-		@include vendor('transition', 'color #{_duration(transition)} ease-in-out, border-bottom-color #{_duration(transition)} ease-in-out');
-		border-bottom: dotted 1px _palette(fg-light);
-		color: _palette(fg-bold);
-		text-decoration: none;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: _font(weight-bold);
+  color: inherit;
+  letter-spacing: -0.0325em;
 
-		&:hover {
-			border-bottom-color: transparent;
-			color: _palette(fg-bold) !important;
-		}
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
 
-		&.special:not(.button) {
-			@include icon;
-			border-bottom: 0;
-			display: block;
-			font-family: _font(family-heading);
-			font-size: 0.8em;
-			font-weight: _font(weight-heading-bold);
-			letter-spacing: _font(kern-heading);
-			margin: 0 0 _size(element-margin) 0;
-			text-transform: uppercase;
+h2 {
+  font-size: 2.25em;
+  line-height: 1.25em;
+  letter-spacing: -0.05em;
+}
 
-			&:before {
-				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
-				border-radius: 100%;
-				border: solid 2px _palette(border);
-				content: '\f105';
-				display: inline-block;
-				font-size: 1.25em;
-				height: 2em;
-				line-height: 1.65em;
-				margin-right: 0.85em;
-				text-align: center;
-				text-indent: 0.15em;
-				vertical-align: middle;
-				width: 2em;
-			}
+@include breakpoint('<=small') {
+  h2 {
+    font-size: 1.5em;
+  }
+}
 
-			&:hover {
-				&:before {
-					background-color: _palette(border-bg);
-				}
-			}
+strong, b {
+  font-weight: _font(weight-bold);
+  color: inherit;
+}
 
-			&:active {
-				&:before {
-					background-color: _palette(border2-bg);
-				}
-			}
-		}
-	}
+em, i {
+  font-style: italic;
+}
 
-	strong, b {
-		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
-	}
+a {
+  @include vendor('transition', 'color #{_duration(transition)} ease-in-out');
+  color: _palette(accent1, bg);
+}
 
-	em, i {
-		font-style: italic;
-	}
+sub {
+  position: relative;
+  top: 0.5em;
+  font-size: 0.8em;
+}
 
-	p {
-		margin: 0 0 _size(element-margin) 0;
-	}
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
-		font-family: _font(family-heading);
-		font-weight: _font(weight-heading-bold);
-		letter-spacing: _font(kern-heading);
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
+hr {
+  border: 0;
+  border-top: solid 1px _palette(border);
+}
 
-		a {
-			color: inherit;
-			text-decoration: none;
-		}
+blockquote {
+  border-left: solid 0.5em _palette(border);
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
 
-		span {
-			font-weight: _font(weight-heading);
-		}
-
-		&.major {
-			padding-bottom: 1em;
-			border-bottom: solid 2px _palette(border);
-		}
-	}
-
-	h2 {
-		font-size: 1.2em;
-	}
-
-	h3 {
-		font-size: 0.9em;
-	}
-
-	h4 {
-		font-size: 0.7em;
-	}
-
-	h5 {
-		font-size: 0.7em;
-	}
-
-	h6 {
-		font-size: 0.7em;
-	}
-
-	@include breakpoint(small) {
-		h2 {
-			font-size: 1em;
-		}
-
-		h3 {
-			font-size: 0.8em
-		}
-	}
-
-	sub {
-		font-size: 0.8em;
-		position: relative;
-		top: 0.5em;
-	}
-
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
-
-	blockquote {
-		border-left: solid 4px _palette(border);
-		font-style: italic;
-		margin: 0 0 _size(element-margin) 0;
-		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
-	}
-
-	code {
-		background: _palette(border-bg);
-		border-radius: _size(border-radius);
-		border: solid 2px _palette(border);
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
-	}
-
-	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: _font(family-fixed);
-		font-size: 0.9em;
-		margin: 0 0 _size(element-margin) 0;
-
-		code {
-			display: block;
-			line-height: 1.75em;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
-	}
-
-	hr {
-		border: 0;
-		border-bottom: solid 2px _palette(border);
-		margin: (_size(element-margin) * 1.25) 0;
-
-		&.major {
-			margin: (_size(element-margin) * 2) 0;
-		}
-	}
-
-	.align-left {
-		text-align: left;
-	}
-
-	.align-center {
-		text-align: center;
-	}
-
-	.align-right {
-		text-align: right;
-	}
+p, ul, ol, dl, table {
+  margin-bottom: 1em;
+}

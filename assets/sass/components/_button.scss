@@ -1,91 +1,80 @@
 ///
-/// Solid State by HTML5 UP
+/// Big Picture by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
 /* Button */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		@include vendor('appearance', 'none');
-		@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
-		background-color: transparent;
-		border-radius: _size(border-radius);
-		border: 0;
-		box-shadow: inset 0 0 0 2px _palette(border);
-		color: _palette(fg-bold) !important;
-		cursor: pointer;
-		display: inline-block;
-		font-family: _font(family-heading);
-		font-size: 0.8em;
-		font-weight: _font(weight-heading-bold);
-		height: 3.75em;
-		letter-spacing: _font(kern-heading);
-		line-height: 3.75em;
-		padding: 0 2.25em;
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		white-space: nowrap;
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button,
+button {
+  @include vendor('appearance', 'none');
+  @include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+  background-color: _palette(accent1, bg);
+  border: 0;
+  border-radius: 3.5em;
+  color: _palette(accent1, fg);
+  cursor: pointer;
+  display: inline-block;
+  height: 3.5em;
+  line-height: 3.5em;
+  outline: 0;
+  padding: 0 2em 0 2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
 
-		&:hover {
-			background-color: _palette(border-bg);
-		}
+  &.down {
+    width: 5em;
+    height: 5em;
+    line-height: 4.5em;
+    padding: 0;
+    background-image: url('images/dark-arrow.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -10em;
+    overflow: hidden;
 
-		&:active {
-			background-color: _palette(border2-bg);
-		}
+    &.anchored {
+      bottom: 0;
+      border-bottom: 0;
+      border-radius: 3em 3em 0 0;
+      height: 4.5em;
+      margin-left: -2.5em;
+    }
+  }
 
-		&.icon {
-			&:before {
-				margin-right: 0.5em;
-				color: _palette(fg-light);
-			}
-		}
+  &.anchored {
+    position: absolute;
+    left: 50%;
+  }
 
-		&.special {
-			background-color: _palette(accent);
-			box-shadow: none;
+  &:hover {
+    background-color: lighten(_palette(accent1, bg), 5);
+  }
 
-			&:hover {
-				background-color: desaturate(lighten(_palette(accent), 3), 1.5);
-			}
+  &:active {
+    background-color: darken(_palette(accent1, bg), 5);
+  }
 
-			&:active {
-				background-color: saturate(darken(_palette(accent), 3), 1.5);
-			}
+  &.style2 {
+    background-color: transparent;
+    border: solid 2px _palette(border);
+    color: inherit;
 
-			&.icon {
-				&:before {
-					color: mix(_palette(fg-bold), _palette(accent), 25%);
-				}
-			}
-		}
+    &:hover {
+      background-color: transparentize(_palette(border), 0.75);
+    }
 
-		&.fit {
-			display: block;
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 100%;
-		}
+    &:active {
+      background-color: transparentize(_palette(border), 0.625);
+    }
 
-		&.small {
-			font-size: 0.6em;
-		}
-
-		&.big {
-			font-size: 1em;
-		}
-
-		&.disabled,
-		&:disabled {
-			opacity: 0.25;
-		}
-
-		@include breakpoint(xsmall) {
-			padding: 0;
-		}
-	}
+    &.down {
+      background-image: url('images/arrow.svg');
+    }
+  }
+}
