@@ -22,6 +22,9 @@
     width: 50%;
     position: relative;
     opacity: 1.0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .image {
       margin: 0;
@@ -69,4 +72,8 @@
       width: 100%;
     }
   }
+}
+
+.gallery {
+  padding-top: 3em;
 }

@@ -21,3 +21,20 @@
     }
   }
 }
+
+.sponsors-gold {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    flex: 0 auto;
+    width: 100%;
+  }
+
+  a {
+    flex: 0 auto;
+    width: 50%;
+  }
+}

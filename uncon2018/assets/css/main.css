@@ -410,6 +410,18 @@ p, ul, ol, dl, table {
         padding: 1.5em 1.25em 1.5em 1.25em;
         background-color: rgba(57, 69, 75, 0.9); } }
 
+.sponsors-gold {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+  .sponsors-gold h3 {
+    flex: 0 auto;
+    width: 100%; }
+  .sponsors-gold a {
+    flex: 0 auto;
+    width: 50%; }
+
 /* Button */
 input[type="button"],
 input[type="submit"],
@@ -996,7 +1008,10 @@ table {
     transform: translateX(0);
     width: 50%;
     position: relative;
-    opacity: 1.0; }
+    opacity: 1.0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
     .gallery article .image {
       margin: 0;
       display: block; }
@@ -1264,6 +1279,9 @@ table {
       flex-direction: column; }
       .gallery article {
         width: 100%; } }
+
+.gallery {
+  padding-top: 3em; }
 
 /* Header */
 #header {
