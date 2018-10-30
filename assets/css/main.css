@@ -464,6 +464,9 @@ p, ul, ol, dl, table {
 .box.sponsors-gold article {
   flex: 0 auto;
   width: 50%; }
+  @media screen and (max-width: 736px) {
+    .box.sponsors-gold article {
+      width: 100%; } }
 
 .box.sponsors-social .logo img {
   width: 300px; }
