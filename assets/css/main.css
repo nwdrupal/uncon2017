@@ -410,17 +410,66 @@ p, ul, ol, dl, table {
         padding: 1.5em 1.25em 1.5em 1.25em;
         background-color: rgba(57, 69, 75, 0.9); } }
 
-.sponsors-gold {
+.sponsors-gold,
+.sponsors-silver,
+.sponsors-social,
+.sponsors-training {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
-  .sponsors-gold h3 {
+  align-items: center;
+  min-height: 650px;
+  margin-bottom: 1em;
+  width: 45em;
+  max-width: calc(100% - 4em);
+  margin: 1em auto; }
+  @media screen and (max-width: 736px) {
+    .sponsors-gold,
+    .sponsors-silver,
+    .sponsors-social,
+    .sponsors-training {
+      min-height: 400px; } }
+  .sponsors-gold h3,
+  .sponsors-silver h3,
+  .sponsors-social h3,
+  .sponsors-training h3 {
     flex: 0 auto;
-    width: 100%; }
-  .sponsors-gold a {
+    width: 100%;
+    align-self: flex-start; }
+  .sponsors-gold a,
+  .sponsors-silver a,
+  .sponsors-social a,
+  .sponsors-training a {
     flex: 0 auto;
     width: 50%; }
+  .sponsors-gold .logo img,
+  .sponsors-silver .logo img,
+  .sponsors-social .logo img,
+  .sponsors-training .logo img {
+    width: 100%;
+    margin: 1.5em 0; }
+
+.box.sponsors-silver {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 2em auto; }
+  .box.sponsors-silver article {
+    width: 50%;
+    padding: 1em 3em; }
+    @media screen and (max-width: 736px) {
+      .box.sponsors-silver article {
+        width: 100%;
+        padding: 0.5em; } }
+
+.box.sponsors-gold article {
+  flex: 0 auto;
+  width: 50%; }
+
+.box.sponsors-social .logo img {
+  width: 300px; }
+  @media screen and (max-width: 736px) {
+    .box.sponsors-social .logo img {
+      width: 150px; } }
 
 /* Button */
 input[type="button"],
@@ -805,6 +854,9 @@ ul.icons {
 /* Sections/Article */
 header {
   margin-bottom: 1em; }
+  header div {
+    max-width: 400px;
+    margin: 0 auto; }
   header p {
     display: block;
     margin: 1em 0 0 0;
@@ -818,6 +870,16 @@ header {
 
 footer {
   margin-top: 2em; }
+
+@media screen and (max-width: 736px) {
+  #two .content,
+  #four .content,
+  #six .content {
+    text-align: left; } }
+#two .content header,
+#four .content header,
+#six .content header {
+  text-align: center; }
 
 /* Table */
 table {

@@ -9,6 +9,11 @@
 header {
   margin-bottom: 1em;
 
+  div {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
   p {
     display: block;
     margin: 1em 0 0 0;
@@ -27,4 +32,18 @@ header {
 
 footer {
   margin-top: 2em;
+}
+
+#two,
+#four,
+#six {
+  .content {
+    @include breakpoint('<=small') {
+      text-align: left;
+    }
+
+    header {
+      text-align: center;
+    }
+  }
 }
