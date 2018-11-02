@@ -38,6 +38,7 @@
 
   @include breakpoint('<=small') {
     min-height: 400px;
+    align-items: flex-start;
   }
 
   h3 {
