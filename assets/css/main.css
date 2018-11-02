@@ -428,7 +428,8 @@ p, ul, ol, dl, table {
     .sponsors-silver,
     .sponsors-social,
     .sponsors-training {
-      min-height: 400px; } }
+      min-height: 400px;
+      align-items: flex-start; } }
   .sponsors-gold h3,
   .sponsors-silver h3,
   .sponsors-social h3,
@@ -464,6 +465,9 @@ p, ul, ol, dl, table {
 .box.sponsors-gold article {
   flex: 0 auto;
   width: 50%; }
+  @media screen and (max-width: 736px) {
+    .box.sponsors-gold article {
+      width: 100%; } }
 
 .box.sponsors-social .logo img {
   width: 300px; }
