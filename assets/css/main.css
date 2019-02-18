@@ -63,6 +63,7 @@ input, select, textarea {
 /* Basic */
 @-ms-viewport {
   width: device-width; }
+
 html {
   height: 100%; }
 
@@ -98,6 +99,7 @@ body {
     -webkit-transform: scale(1) rotate(360deg);
     -ms-transform: scale(1) rotate(360deg);
     transform: scale(1) rotate(360deg); } }
+
 @-webkit-keyframes spinner-rotate {
   0% {
     -moz-transform: scale(1) rotate(0deg);
@@ -109,6 +111,7 @@ body {
     -webkit-transform: scale(1) rotate(360deg);
     -ms-transform: scale(1) rotate(360deg);
     transform: scale(1) rotate(360deg); } }
+
 @-ms-keyframes spinner-rotate {
   0% {
     -moz-transform: scale(1) rotate(0deg);
@@ -120,6 +123,7 @@ body {
     -webkit-transform: scale(1) rotate(360deg);
     -ms-transform: scale(1) rotate(360deg);
     transform: scale(1) rotate(360deg); } }
+
 @keyframes spinner-rotate {
   0% {
     -moz-transform: scale(1) rotate(0deg);
@@ -131,27 +135,32 @@ body {
     -webkit-transform: scale(1) rotate(360deg);
     -ms-transform: scale(1) rotate(360deg);
     transform: scale(1) rotate(360deg); } }
+
 /* Loader */
 @-moz-keyframes spinner-show {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
 @-webkit-keyframes spinner-show {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
 @-ms-keyframes spinner-show {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
 @keyframes spinner-show {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
 @-moz-keyframes spinner-hide {
   0% {
     -moz-transform: scale(1) rotate(0deg);
@@ -174,6 +183,7 @@ body {
     transform: scale(0.5) rotate(360deg);
     color: #e5e6e7;
     z-index: -1; } }
+
 @-webkit-keyframes spinner-hide {
   0% {
     -moz-transform: scale(1) rotate(0deg);
@@ -196,6 +206,7 @@ body {
     transform: scale(0.5) rotate(360deg);
     color: #e5e6e7;
     z-index: -1; } }
+
 @-ms-keyframes spinner-hide {
   0% {
     -moz-transform: scale(1) rotate(0deg);
@@ -218,6 +229,7 @@ body {
     transform: scale(0.5) rotate(360deg);
     color: #e5e6e7;
     z-index: -1; } }
+
 @keyframes spinner-hide {
   0% {
     -moz-transform: scale(1) rotate(0deg);
@@ -240,6 +252,7 @@ body {
     transform: scale(0.5) rotate(360deg);
     color: #e5e6e7;
     z-index: -1; } }
+
 @-moz-keyframes overlay-hide {
   0% {
     opacity: 1;
@@ -253,6 +266,7 @@ body {
   100% {
     opacity: 0;
     z-index: -1; } }
+
 @-webkit-keyframes overlay-hide {
   0% {
     opacity: 1;
@@ -266,6 +280,7 @@ body {
   100% {
     opacity: 0;
     z-index: -1; } }
+
 @-ms-keyframes overlay-hide {
   0% {
     opacity: 1;
@@ -279,6 +294,7 @@ body {
   100% {
     opacity: 0;
     z-index: -1; } }
+
 @keyframes overlay-hide {
   0% {
     opacity: 1;
@@ -292,6 +308,7 @@ body {
   100% {
     opacity: 0;
     z-index: -1; } }
+
 body {
   text-decoration: none; }
   body:after {
@@ -358,6 +375,7 @@ h2 {
 @media screen and (max-width: 736px) {
   h2 {
     font-size: 1.5em; } }
+
 strong, b {
   font-weight: 900;
   color: inherit; }
@@ -738,6 +756,7 @@ ul.default {
   padding-left: 1em; }
   ul.default li {
     padding-left: 0.5em; }
+
 ul.menu {
   cursor: default; }
   ul.menu li {
@@ -859,7 +878,7 @@ ul.icons {
 header {
   margin-bottom: 1em; }
   header div {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto; }
   header p {
     display: block;
@@ -880,6 +899,7 @@ footer {
   #four .content,
   #six .content {
     text-align: left; } }
+
 #two .content header,
 #four .content header,
 #six .content header {
@@ -1628,7 +1648,9 @@ table {
         padding-top: 0; } }
 
 /* Intro */
-#intro,
+#intro {
+  background-color: #221f20; }
+
 #work {
   background: url("images/overlay.png"), url("../../images/intro.jpg");
   background-size: 256px 256px, cover;
@@ -1697,5 +1719,3 @@ table {
   @media screen and (max-width: 480px) {
     #contact .box {
       padding: 1em 1em 2em 1em; } }
-
-/*# sourceMappingURL=main.css.map */
