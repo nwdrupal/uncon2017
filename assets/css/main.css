@@ -428,6 +428,7 @@ p, ul, ol, dl, table {
         padding: 1.5em 1.25em 1.5em 1.25em;
         background-color: rgba(57, 69, 75, 0.9); } }
 
+.sponsors-platinum,
 .sponsors-gold,
 .sponsors-silver,
 .sponsors-social,
@@ -441,12 +442,14 @@ p, ul, ol, dl, table {
   max-width: calc(100% - 4em);
   margin: 1em auto; }
   @media screen and (max-width: 736px) {
+    .sponsors-platinum,
     .sponsors-gold,
     .sponsors-silver,
     .sponsors-social,
     .sponsors-training {
       min-height: 400px;
       align-items: flex-start; } }
+  .sponsors-platinum h3,
   .sponsors-gold h3,
   .sponsors-silver h3,
   .sponsors-social h3,
@@ -454,12 +457,14 @@ p, ul, ol, dl, table {
     flex: 0 auto;
     width: 100%;
     align-self: flex-start; }
+  .sponsors-platinum a,
   .sponsors-gold a,
   .sponsors-silver a,
   .sponsors-social a,
   .sponsors-training a {
     flex: 0 auto;
     width: 50%; }
+  .sponsors-platinum .logo img,
   .sponsors-gold .logo img,
   .sponsors-silver .logo img,
   .sponsors-social .logo img,
