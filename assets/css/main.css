@@ -431,6 +431,7 @@ p, ul, ol, dl, table {
 .sponsors-platinum,
 .sponsors-gold,
 .sponsors-silver,
+.sponsors-bronze,
 .sponsors-social,
 .sponsors-training {
   display: flex;
@@ -445,6 +446,7 @@ p, ul, ol, dl, table {
     .sponsors-platinum,
     .sponsors-gold,
     .sponsors-silver,
+    .sponsors-bronze,
     .sponsors-social,
     .sponsors-training {
       min-height: 400px;
@@ -452,6 +454,7 @@ p, ul, ol, dl, table {
   .sponsors-platinum h3,
   .sponsors-gold h3,
   .sponsors-silver h3,
+  .sponsors-bronze h3,
   .sponsors-social h3,
   .sponsors-training h3 {
     flex: 0 auto;
@@ -460,6 +463,7 @@ p, ul, ol, dl, table {
   .sponsors-platinum a,
   .sponsors-gold a,
   .sponsors-silver a,
+  .sponsors-bronze a,
   .sponsors-social a,
   .sponsors-training a {
     flex: 0 auto;
@@ -467,20 +471,26 @@ p, ul, ol, dl, table {
   .sponsors-platinum .logo img,
   .sponsors-gold .logo img,
   .sponsors-silver .logo img,
+  .sponsors-bronze .logo img,
   .sponsors-social .logo img,
   .sponsors-training .logo img {
     width: 100%;
     margin: 1.5em 0; }
 
-.box.sponsors-silver {
+.box.sponsors-gold,
+.box.sponsors-silver,
+.box.sponsors-bronze {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto 2em auto; }
-  .box.sponsors-silver article {
+  flex-wrap: wrap; }
+  .box.sponsors-gold article,
+  .box.sponsors-silver article,
+  .box.sponsors-bronze article {
     width: 50%;
     padding: 1em 3em; }
     @media screen and (max-width: 736px) {
-      .box.sponsors-silver article {
+      .box.sponsors-gold article,
+      .box.sponsors-silver article,
+      .box.sponsors-bronze article {
         width: 100%;
         padding: 0.5em; } }
 
