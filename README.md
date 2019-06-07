@@ -1,6 +1,6 @@
-#NWDUG Unconf 2018
+#NWDUG Unconf 2019
 
-3rd November, Federation House, Manchester.
+12th October, Federation House, Manchester.
 
 http://uncon.nwdrupal.org.uk
 
