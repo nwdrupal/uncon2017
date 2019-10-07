@@ -28,7 +28,6 @@
 .sponsors-bronze,
 .sponsors-social,
 .sponsors-training {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -61,6 +60,7 @@
   }
 }
 
+.sponsors-platinum,
 .box.sponsors-gold,
 .box.sponsors-silver,
 .box.sponsors-bronze {
