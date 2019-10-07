@@ -434,7 +434,6 @@ p, ul, ol, dl, table {
 .sponsors-bronze,
 .sponsors-social,
 .sponsors-training {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -477,17 +476,20 @@ p, ul, ol, dl, table {
     width: 100%;
     margin: 1.5em 0; }
 
+.sponsors-platinum,
 .box.sponsors-gold,
 .box.sponsors-silver,
 .box.sponsors-bronze {
   display: flex;
   flex-wrap: wrap; }
+  .sponsors-platinum article,
   .box.sponsors-gold article,
   .box.sponsors-silver article,
   .box.sponsors-bronze article {
     width: 50%;
     padding: 1em 3em; }
     @media screen and (max-width: 736px) {
+      .sponsors-platinum article,
       .box.sponsors-gold article,
       .box.sponsors-silver article,
       .box.sponsors-bronze article {
